@@ -10,7 +10,7 @@ import org.junit.runners.Suite;
 	CheckAndRemoveExistPZ.class,
 	Create_PZ.class,
 	Approval_PZ.class,
-	Create_PPG_Regular.class,
+	Create_PPG_Regular_OK.class,
 	Approval_PPG.class,
 	CheckAndRemoveExistPG.class, 
 	Create_PG.class, 

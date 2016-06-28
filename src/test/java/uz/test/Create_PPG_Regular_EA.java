@@ -12,15 +12,15 @@ import org.junit.runner.RunWith;
 import uz.utils.JSON;
 
 @RunWith(SerenityRunner.class)
-public class Create_PPG_Regular extends TestCasesBase{
+public class Create_PPG_Regular_EA extends TestCasesBase{
 
-	@Title("Создание ППГ обычная")
+	@Title("Создание ППГ обычная - Электронный аукцион")
     @Test
 	public void create_PPG_Regular() throws AWTException{
 		
 		
 		Serenity.setSessionVariable("start_time").to(h.getFormattedCurrentDate("dd.MM.yyyy HH:mm:ss"));
-		Serenity.setSessionVariable("test_name").to("Создание ППГ обычная");
+		Serenity.setSessionVariable("test_name").to("Создание ППГ обычная - Электронный аукцион");
 
 		String ppzNum = JSON.readJSON("ppz_num", "ppz_num");
 		
@@ -61,7 +61,7 @@ public class Create_PPG_Regular extends TestCasesBase{
 		positionsPlanGraphicsPurchesBasicInformationSteps.clickOnFieldMethodForDeterminingSupplier();
 		positionsPlanGraphicsPurchesBasicInformationSteps.clickOnButtonMethodForDeterminingSupplier();
 		
-		selectValueInMethodForDeterminingSupplierDictionary("Открытый конкурс");
+		selectValueInMethodForDeterminingSupplierDictionary("Электронный аукцион");
 		
 		positionsPlanGraphicsPurchesBasicInformationSteps.waitingForAppletVisible();
 		positionsPlanGraphicsPurchesBasicInformationSteps.clickOnFieldInvestmentTermOfNoticeYear();
