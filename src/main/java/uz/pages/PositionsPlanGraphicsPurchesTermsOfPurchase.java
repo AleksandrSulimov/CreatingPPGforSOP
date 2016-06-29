@@ -71,7 +71,7 @@ public class PositionsPlanGraphicsPurchesTermsOfPurchase extends BasePage {
 	  private WebElementFacade organizationOfInvalidsCheckBox;
 
 	  //Чекбокс Наличие/требуется в строке Организациям инвалидов (в соответствии со Статьей 29 Федерального закона № 44-ФЗ)
-	  @FindBy(xpath=".//td[div/textarea[text()='Организациям инвалидов (в соответствии со Статьей 29 Федерального закона № 44-ФЗ)']]/preceding-sibling::td[1]/div")
+	  @FindBy(xpath=".//td[div/textarea[text()='Организациям инвалидов (в соответствии со Статьей 29 Федерального закона № 44-ФЗ)']]/following-sibling::td[1]//span[@title='Наличие/требуется']/div")
 	  private WebElementFacade availabilityOrganizationOfInvalidsCheckBox;
 
 	  //Поле Содержание в строке Организациям инвалидов (в соответствии со Статьей 29 Федерального закона № 44-ФЗ)
@@ -83,7 +83,7 @@ public class PositionsPlanGraphicsPurchesTermsOfPurchase extends BasePage {
 	  private WebElementFacade uniformRequirementsForParticipantsCheckBox;
 
 	  //Чекбокс Наличие/требуется в строке Единые требования к участникам (в соответствии с частью 2.1 Статьи 31 Федерального закона № 44-ФЗ)
-	  @FindBy(xpath=".//td[div/textarea[text()='Единые требования к участникам (в соответствии с частью 2.1 Статьи 31 Федерального закона № 44-ФЗ)']]/preceding-sibling::td[1]/div")
+	  @FindBy(xpath=".//td[div/textarea[text()='Единые требования к участникам (в соответствии с частью 2.1 Статьи 31 Федерального закона № 44-ФЗ)']]/following-sibling::td[1]//span[@title='Наличие/требуется']/div")
 	  private WebElementFacade availabilityUniformRequirementsForParticipantsCheckBox;
 
 	  //Поле Содержание в строке Единые требования к участникам (в соответствии с частью 2.1 Статьи 31 Федерального закона № 44-ФЗ)

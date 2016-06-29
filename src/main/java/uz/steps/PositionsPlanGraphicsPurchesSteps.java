@@ -89,4 +89,9 @@ public class PositionsPlanGraphicsPurchesSteps extends ScenarioSteps {
     	return applet.checkNumberPositionPlanGraphicEists(text);    	
     }
     
+  /*  @Step("Проверяем было ли создана ППГ по текущей ППЗ")
+    public Boolean isButtonExistForNotEnoughFinOb(){
+    	return applet.isButtonExistForNotEnoughFinOb();
+    }*/
+    
 }

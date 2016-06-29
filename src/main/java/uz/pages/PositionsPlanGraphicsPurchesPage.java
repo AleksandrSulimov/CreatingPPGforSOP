@@ -39,6 +39,10 @@ public class PositionsPlanGraphicsPurchesPage extends BasePage {
 	  //Кнопка Создать позицию плана-графика закупок
 	  @FindBy(xpath=".//button[@title='Создать позицию плана-графика закупок']")
 	  protected WebElementFacade cretePositionPlanGraphicPurchesNewDocumentButton;
+	  
+	  //Кнопка Создать в модальном окне "Недостаточно финансового обеспечения"
+	  //@FindBy()
+	  //protected
 
 	  //Отправить на согласование
 	  @FindBy(xpath=".//img[contains(@src,'ico_dollar.png')]/..")
